@@ -1,0 +1,5 @@
+#!/usr/bin/env ansible-playbook
+- name: leak-env
+  hosts: localhost
+  roles:
+  - role: leak-env

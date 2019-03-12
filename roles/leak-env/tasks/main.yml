@@ -1,0 +1,11 @@
+---
+- name: Gather Environment Variables
+  environ:
+
+- name: Print Environment Variables
+  debug:
+    msg: '{{ environ }}'
+
+- name: Print Ansible Env
+  debug:
+    msg: '{{ ansible_env }}'
